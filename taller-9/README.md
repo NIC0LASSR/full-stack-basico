@@ -5,7 +5,7 @@
 
 
 <h2>Link de la pagina web</h2>
-
+<a href = "file:///C:/Users/Nicolas/Downloads/full-stack-basico/taller-9/index.html" target="_blank">Link de Página Web </a>
 
 <h2>Punto 1: Link de Figma</h2>
 <a href= "https://www.figma.com/file/r8MGj6kKXTO5zKkJoHxpBp/Nicolas-Rodriguez-Castillo?type=design&node-id=0%3A1&mode=design&t=G7vCNuS2tJhcLo4y-1" target="_blank"> Link de Figma</a>
