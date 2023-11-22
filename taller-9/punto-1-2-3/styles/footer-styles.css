@@ -1,0 +1,47 @@
+#footer {
+    margin-top: 120px;
+    background: #420151;
+    display: flex;
+    color:white;
+    padding: 20px 100px;
+}
+
+.footer__info{
+    width: 50%;    
+}
+
+.button--sub {
+    background: #ED80FD;
+    color: white;
+}
+
+input {
+    padding: 17px;
+    margin-right: -20px;
+    width: 220px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(69, 72, 104, 0.60);;
+}
+
+td a {
+    color: white;
+}
+
+table {
+    font-family: 'Jost';
+    text-align: left;
+
+}
+
+tr {
+    height: 40px;
+}
+
+th {
+    height: 80px;
+}
+
+td {
+    padding-right: 80px;
+}

@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href ="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8"/>
+    <link rel="stylesheet" href = "./styles/header-styles.css">
+    <link rel ="stylesheet" href = "./styles/common-styles.css">
+    <link rel = "stylesheet" href ="./styles/banner-styles.css">
+    <link rel = "stylesheet" href ="./styles/section-1-styles.css">
+    <link rel = "stylesheet" href ="./styles/section-2-styles.css">
+    <link rel ="stylesheet" href= "./styles/footer-styles.css">
 </head>
 <body>
     <header>
@@ -11,7 +18,7 @@
             <img src = "./public/images/header-logo.png" alt = "header logo" >
             <nav>
                 <ul>
-                    <li> <a href="#banner"> Cursos</a></li>
+                    <li><a href="#banner"> Cursos</a></li>
                     <li><a href="#section-1">Participantes</a></li>
                     <li><a href="#section-2">Certificados</a></li>
                     <li><a href="#footer">Ayuda</a></li>
@@ -29,8 +36,10 @@
     <main></main>
     <section id = "banner">
         <div class = "banner__info">
-            <div class = "banner__text">
-                <h1>Aprovecha la era digital, toma clases en línea</h1>
+            <div class = "banner__texts">
+                <h1>Aprovecha la era 
+                    digital, toma clases 
+                    en línea</h1>
                 <p>
                     Toma cursos los cursos mas importantes de tecnología con clases en línea, 
                     donde podras tener acceso a contenido acctualizado desde la comodidad de
@@ -38,8 +47,8 @@
                 </p>
             </div>
             <div class = "banner__buttons">
-                <button>Saber más</button>
-                <button>Planes</button>
+                <button class = "button--orange">Saber más</button>
+                <button class ="button--transparent">Planes</button>
             </div>
         </div>
         <img src ="./public/images/banner-online.png" alt="banner online">
@@ -49,11 +58,11 @@
             <h2>Por qué elegirnos a nosotros</h2>
             <p>Somos una universidad en constante actualización y nos gusta el cambio, te enseñamos tecnologias contemporáneas</p>
         </div>
-        <div cass = "card-1">
+        <div class = "section-1__card">
             <img src="./public/images/section1-education.png" alt = "educacion" width="120px" height="120px">
             <h3>Virtualidad y educación</h3>
         </div>
-        <div class = "card-2">
+        <div class = "section-1__card section-1__card-down">
             <h3>Alcance de objetivos</h3>
             <img src = "public/images/section1-goals.png" 
             alt="objetivos"
@@ -61,7 +70,7 @@
             height="120px"
             >
         </div>
-        <div class = "card-3">
+        <div class = "section-1__card">
             <img src="./public/images/section1-teach.png" 
             alt ="teach"
             height="120px"
@@ -71,37 +80,37 @@
         </div>
     </section>
     <section id = "section-2">
-        <div class = "section-2__info-1">
+        <div class = "section-2__info">
             <img src ="./public/images/section2-tools.png"
             alt = "tool"
-            width="500px"
-            height="350px"
+            width="1200px"
+            height="485px"
             >
             <div>
                 <h2>Brindamos herramientas para que tu aprendizaje </h2>
-                <h2>sea efectivo</h2>
+                <h2 class = "texto_section-2">sea efectivo</h2>
                 <p>
                     Las herramientas digitales son nuestras aliadas 
                     y aprovechamos cada una de estas para brindarte 
                     la mejor experiencia en línea
                 </p>
-                <button>Saber más</button>
+                <button class = "button--orange">Saber más</button>
             </div>
         </div>
-        <div class = "section-2__info-2">
+        <div class = "section-2__info">
             <div>
                 <h2>Educación pensando en </h2>
-                <h2>objetivos alcanzados</h2>
+                <h2 class = "texto_section-2">objetivos alcanzados</h2>
                 <p>
                     Es importante para nosotros que las metas de cada
                     uno de nuestros estudiantes sea alcanzada a través de nuestros cursos
                 </p>
-                <button>Saber más</button>
+                <button class = "button--orange">Saber más</button>
             </div>
             <img src ="./public/images/section2-goals.png"
             alt = "goals"
-            width="500px"
-            height="350px"
+            width="1000px"
+            height="480px"
             >
         </div>
     </section>
@@ -122,7 +131,7 @@
                 placeholder="Correo electrónico"
                 id = "user_email"
                 name = "user_email">
-                <button>Suscribirse</button>
+                <button class = "button--sub">Suscribirse</button>
             </form>
 
         </div>
