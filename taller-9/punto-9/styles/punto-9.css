@@ -1,0 +1,11 @@
+table, td, th {
+    border: 1px dashed black;
+    width: 50%;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: yellow;
+  }
+  
+  table th {
+    color: red;
+  }

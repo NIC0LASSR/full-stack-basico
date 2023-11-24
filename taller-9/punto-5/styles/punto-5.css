@@ -1,0 +1,24 @@
+.verde {
+    color: green;
+    text-decoration: underline;
+  }
+  
+  .rojo {
+    color: red;
+  }
+  
+  .grande {
+    font-size: medium;
+  }
+  
+  .azul {
+    color: blue;
+  }
+  
+  .encerrado {
+    text-decoration: underline overline;
+  }
+  .rojo-sub{
+    color: red;
+    text-decoration: underline;
+  }

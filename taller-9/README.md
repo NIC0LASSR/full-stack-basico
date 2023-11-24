@@ -21,12 +21,13 @@
 <img src = "./public/imagenes/punto-4.png" alt = "punto 4">
 
 <h2>Punto 5: Párrafo</h2>
-
+<img src = "./public/imagenes/punto-5.png" alt = "punto 5">
 
 <h2>Punto 6: Links</h2>
-
+<img src="./public/images/punto-6.png" alt = "punto 6">
 
 <h2>Punto 7 y 8: Navegacion</h2>
-
+<img src="./public/images/punto-7-8.png" alt = "punto 7 y 8">
 
 <h2>Punto 9: Tabla</h>
+<img src="./public/images/punto-9.png" alt = "punto 9">
