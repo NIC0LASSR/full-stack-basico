@@ -18,10 +18,10 @@
 <img src="./public/images/punto-3.png" alt = "punto 3">
 
 <h2>Punto 4: Títulos</h2>
-<img src="./public/images/punto-4.PNG" alt = "punto 4">
+<img src="./public/images/punto-4.png" alt = "punto 4">
 
 <h2>Punto 5: Párrafo</h2>
-<img src="./public/imagenes/punto-5.PNG" alt = "punto 5">
+<img src="./public/images/punto-5.PNG" alt = "punto 5">
 
 <h2>Punto 6: Links</h2>
 <img src="./public/images/punto-6.PNG" alt = "punto 6">
