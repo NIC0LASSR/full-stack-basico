@@ -46,3 +46,7 @@ body {
     margin: 0px;
 }
 
+table {
+    font-family: 'Jost';
+    text-align: left;
+}

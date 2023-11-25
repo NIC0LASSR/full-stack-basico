@@ -1,18 +1,23 @@
 .verde {
-    color: green;
+    color: rgb(77, 228, 77);
     text-decoration: underline;
+    font-weight: bold;
   }
   
   .rojo {
     color: red;
+    font-weight: bold;
   }
   
   .grande {
-    font-size: medium;
+    font-size: 50px;
+    font-weight: bold;
   }
   
   .azul {
     color: blue;
+    font-weight: bold;
+    font-size: 20px;
   }
   
   .encerrado {
@@ -20,5 +25,7 @@
   }
   .rojo-sub{
     color: red;
+    font-size: 20px;
     text-decoration: underline;
+    font-weight: bold;
   }
